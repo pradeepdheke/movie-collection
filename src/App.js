@@ -1,10 +1,16 @@
+
+import { Container } from 'react-bootstrap';
 import './App.css';
 import { Title } from './title/Title';
 
 function App() {
   return (
     <div className="wrapper">
-      <Title/>
+    <Container>
+        <Title/>
+
+    </Container>
+
     </div>
 
   );
